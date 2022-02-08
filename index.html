@@ -48,13 +48,13 @@
         <label>Days Available:</label>
         <br><br>
         <div>
-          <div><input type="checkbox" name="available_field[]" value="Sunday">Sunday</div>
-          <div><input type="checkbox" name="available_field[]" value="Monday">Monday</div>
-          <div><input type="checkbox" name="available_field[]" value="Tuesday">Tuesday</div>
-          <div><input type="checkbox" name="available_field[]" value="Wednesday">Wednesday</div>
-          <div><input type="checkbox" name="available_field[]" value="Thursday">Thursday</div>
-          <div><input type="checkbox" name="available_field[]" value="Friday">Friday</div>
-          <div><input type="checkbox" name="available_field[]" value="Saturday">Saturday</div>
+          <div><label for="Sunday"><input type="checkbox" name="available_field[]" value="Sunday" id="Sunday">Sunday</label><div>
+          <div><label for="Monday"><input type="checkbox" name="available_field[]" value="Monday" id="Monday">Monday</label><div>
+          <div><label for="Tuesday"><input type="checkbox" name="available_field[]" value="Tuesday" id="Tuesday">Tuesday</label><div>
+          <div><label for="Wednesday"><input type="checkbox" name="available_field[]" value="Wednesday" id="Wednesday">Wednesday</label><div>
+          <div><label for="Thursday"><input type="checkbox" name="available_field[]" value="Thursday" id="Thursday">Thursday</label><div>
+          <div><label for="Friday"><input type="checkbox" name="available_field[]" value="Friday" id="Friday">Friday</label><div>
+          <div><label for="Saturday"><input type="checkbox" name="available_field[]" value="Saturday" id="Saturday">Saturday</label><div>
         </div>
       </div>
       <br><br>
@@ -63,6 +63,7 @@
       <textarea name="comments_field" cols="40" rows="30" placeholder="Write your comment"></textarea>
     </fieldset>
     <input type="hidden" name="hidden_field" value="Qiaofeng Lin"/>
+    <br>
     <button type="submit">Send me</button>
     
   </form>       
